@@ -2,7 +2,7 @@
     "short_name": "Piuma",
     "name": "Piuma Prueba",
     "start_url": "index.html",
-    "background_color": "#fff",
+    "background_color": "#f83145",
     "display": "standalone",
     "theme_color": "#f83145",
     "orientation": "portrait",
