@@ -3,9 +3,9 @@
 importScripts('js/sw_utils.js');
 
 
-const STATIC_CACHE = 'static-v2';
-const DYNAMIC_CACHE = 'dynamic-v2';
-const INMUTABLE_CACHE = 'inmutable-v2';
+const STATIC_CACHE = 'static-v3';
+const DYNAMIC_CACHE = 'dynamic-v3';
+const INMUTABLE_CACHE = 'inmutable-v3';
 
 
 
@@ -21,7 +21,6 @@ const APP_SHELL = [
 ];
 
 const APP_SHELL_INMUTABLE = [
-    'http://fonts.googleapis.com/css?family=Lato:300,400,700',
     'js/jquery-1.11.0.min.js',
     'js/scroll.js',
     'js/jquery.countdown.js',
@@ -33,7 +32,7 @@ const APP_SHELL_INMUTABLE = [
     'css/bootstrap-theme.css',
     'css/layout.css',
     'css/background.css',
-    'css/font-awesome.min.css'
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'
 ];
 
 
